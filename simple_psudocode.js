@@ -15,7 +15,7 @@
 
 // STORE "tahun" with any number value
 
-// IF (("tahun" mod 4 == 0 AND "tahun" mod 100 != 0)) OR ("tahun" mod 400 == 0)
+// IF (("tahun" modulo 4 is equals to 0 AND "tahun" modulo 100 is not equals to 0) OR "tahun" modulo 400 is equals to 0)
 //   DISPLAY "Tahun " + tahun + " adalah tahun kabisat."
 // ELSE 
 //   DISPLAY "Tahun " + tahun + " bukan merupakan tahun kabisat."
@@ -26,10 +26,11 @@
 
 // STORE "count" with value 0
 
-// FOR (var "i" = 0; "i" < 20; "i"++) 
-//   CALCULATE "count" = "count" + 1
+// FOR each iteration from 1 until 20 
+//   CALCULATE "count" + 1
+//	 SET "count" value with calculation result
 
-// IF "count" = 20 
+// IF "count" value is equals to 20 
 //   DISPLAY "Semua pakaian sudah dimasukkan ke mesin cuci. Tombol on mesin cuci sudah dapat ditekan."
 // ELSE 
 //   DISPLAY "Belum semua pakaian dimasukkan. Silahkan hitung ulang lagi."
@@ -40,8 +41,8 @@
 
 // STORE "kuku_panjang" with any boolean value 
 
-// FOR (var "i" = 0; "i" < 40; "i"++)
-//   IF "kuku_panjang" === true
+// FOR each iteration from 1 until 40 
+//   IF "kuku_panjang"[in current iteration] value is equals to true
 //     DO hukum siswa
 //   ELSE 
 //     DO puji siswa
