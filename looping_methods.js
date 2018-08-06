@@ -9,6 +9,8 @@ while (count <= 20) {
 	}
 	count = count + 1;
 }
+console.log(count);
+console.log('');
 
 console.log('LOOPING KEDUA');
 while (count >= 2) {
@@ -29,7 +31,7 @@ for (var i = 1; i <= 20; i++) {
 }
 
 console.log('LOOPING KEDUA');
-for (var i = 20; i >= 1; i--) {
+for (var i = 20; i > 0; i--) {
 	console.log(i + ' - I will become fullstack developer');
 }
 console.log('');
